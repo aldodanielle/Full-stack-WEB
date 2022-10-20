@@ -17,5 +17,5 @@ Un Full Stack es la persona responsable de la creacion y mantenimiento de aplica
 - Conocimiento de programacion
 
 ### Conocer mas
-- ![Mision Front-End](https://github.com/aldodanielle/Full-stack-WEB/tree/main/Front-end)
-- ![Mision Back-End(https://github.com/aldodanielle/Full-stack-WEB/tree/main/Back-End)
+- [Mision Front-End](https://github.com/aldodanielle/Full-stack-WEB/tree/main/Front-end)
+- [Mision Back-End(https://github.com/aldodanielle/Full-stack-WEB/tree/main/Back-End)
