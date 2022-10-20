@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos compuestos</title>
+</head>
+<body>
+
+    <h1>Elementos Compuestos</h1>
+
+    <!----------------- Labels / Etiquetas ----------------->
+    <label for="Input1"> Ejemplo de Input de Texto</label>                           <!-- Texto de Ejemplo -->
+    <br>
+    <!----------------- Entradas / Inputs ------------------>                        <!-- crea controles interactivos para formularios -->
+    <input type="text" id="Input1" name="Input1">                                    <!-- con Tipo, id y nombre  -->
+    <br><br>
+
+    <hr>
+    <!------------------ Tipos de Inputs ------------------->
+    <h2>Input de Texto</h2>
+    <label for="correo1">Input de Correo</label><br>                                 <!-- Tipo Correo para correos-->
+    <input type="email" id="correo1" name="correo1"><br><br>                         <!-- con Tipo, id y nombre -->
+    
+    <label for="numero1">Input de número</label><br>                                 <!-- Tipo numero Solo acepta numeros -->
+    <input type="number" id="numero1" name="numero1"><br><br>                        <!-- con Tipo, id y nombre -->
+    
+    <label for="psw1">Input de Password</label><br>                                  <!-- Tipo contraseñas oculta los las informacion ingresada -->
+    <input type="password" id="psw1" name="psw1"><br><br>                            <!-- con Tipo, id y nombre -->
+    
+    <label for="tel1">Input de Teléfono</label><br>                                  <!-- Tipo telefono -->
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>                  <!-- con Tipo, id, nombre, el numero de cararteres totales para ingresar -->
+    
+    <label for="url1">Input de URL</label><br>                                       <!-- Para URL -->
+    <input type="url" id="url1" name="url1"><br><br>                                 <!-- con Tipo, id y nombre -->
+
+    <hr>                                                                             <!-- separador  -->
+
+    <h2>Input de selección multiple</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Valor 1">            <!-- Checkbox con tipo, id, nombre y valor-->
+    <label for="topping1">Texto de prueba 1</label><br>                              <!-- Texto -->
+    <input type="checkbox" id="topping2" name="topping2" value="Valor 2">            <!-- Para selecciona varios -->
+    <label for="topping2">Texto de prueba 2</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="vaalor 3">
+    <label for="topping3">Texto de prueba 3</label><br><br>
+    
+    <h2>Input de selección única</h2><br>
+    <input type="radio" id="id_1" name="salsas" value="Value 1">                     <!-- Radio con tipo, id, nombre y valor-->
+    <label for="roja">Texto Ejemplo 1</label><br>                                    <!-- Texto -->
+    <input type="radio" id="id_2" name="salsas" value="Value 2">                     <!-- Solo se puede seleciona uno -->
+    <label for="verde">Texto ejemplo 2</label><br>
+    <input type="radio" id="id_3" name="salsas" value="Value 3">
+    <label for="guacamole">Texto ejemplo 3</label><br><br>
+
+    <h2>Select</h2>
+    <label for="tacos">Seleccione uno</label>                                       <!-- De Selecion (lista desplejable) -->
+    <select id="tacos" name="tacos">                                                <!-- Nombre nuetra lista -->
+        <option value="Valor unico 1">Opcion 1</option>
+        <option value="Valor unico 2">Opcion 2</option>
+        <option value="Valor unico 3">Opcion 3</option>
+        <option value="Valor unico 4">Tripa</option>
+    </select>
+    
+    <h2>Select con Input</h2>
+    <label for="refresco">Elige uno</label><br>
+    <input list="refresco">                                                        <!-- lista -->
+    <datalist id="refresco">                                                       <!-- ID de nuestra lista -->
+        <option value="Seleccion 1">                                               <!-- Valores -->
+        <option value="Seleccion 2">
+        <option value="Seleccion 3">
+        <option value="Seleccion 4">
+        <option value="Seleccion 5">
+    </datalist>
+    <br><br>
+
+    <hr>                                                                          <!-- separador -->
+    
+    <h2>Input de Fecha</h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br>                             <!-- Seleccion de una fecha especifica -->
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>                   <!-- Seleccion de una fecha con hora -->
+    <input type="week" id="fecha3" name="fecha3"><br>                             <!-- Seleccion de una fecha y semana del año -->
+    <input type="time" id="fecha4" name="fecha4"><br>                             <!-- Seleccion de hora -->
+    <input type="month" id="fecha5" name="fecha5"><br><br>                        <!-- Seleecion de Mes y año -->
+    
+    <hr>                                                                          <!-- separador  -->
+    
+    <h2>Input de archivo</h2><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>            <!-- Seleccion de multiples archivos de la pc -->
+    
+    <h2>Input de Color</h2><br>
+    <input type="color" id="color1" name="color1"><br><br>                        <!-- Seleccion de color -->
+    
+    <h2>Input de Rango</h2>
+    <label for="vol">Volumen (entre 0 y 50):</label><br>                          <!-- Seleecion de un rango -->
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>                 <!-- Cantidad de rango (manimo y maximo) -->
+    
+    <hr>                                                                          <!-- separador -->
+    
+    <h2>Input de botón</h2>
+    <input type="reset"><br>                                                      <!-- Boton Restablecer -->
+    <input type="submit"><br>                                                     <!-- Boton enviar o submit -->
+    <input type="button" id="boton1" name="boton1" value="Botón 1" 
+           onclick="alert('Bienvenidos');"><br><br>                               <!-- Creacion de un boton -->
+    
+    <hr>                                                                          <!-- separador -->
+    <!------------------- Formularios  ------------------->
+    <h2>Ejemplo de Formulario</h2>
+    <form action="/accion.js" id="form1" method="post">                           <!-- Creacion de un formulario con accion, id, metodo -->
+        <label for="nombre">Nombre:</label>                                       <!-- Texto -->
+        <input type="text" id="nombre" name="nombre"><br><br>                     <!-- Tipo de input -->
+        <input type="submit" value="Submit">                                 
+        <input type="reset">
+    </form>                                                                       <!-- cierre del formulario -->
+    
+    <label for="apellido">Apellido:</label>                                       <!-- Texto -->
+    <input type="text" id="apellido" name="apellido" form="form1">                <!-- formulario fuera pero que pertenece a form1 (al formulario creado) -->
+    
+</body>
+</html>
