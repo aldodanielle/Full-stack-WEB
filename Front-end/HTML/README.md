@@ -20,5 +20,5 @@ A continuacion se nuestra un ejemplo sencillo en donde creamos pagina para el in
 - footer 
 
 ## el resultado de muestra de la siguiente manera
-[login](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/HTML/Imagenes/Ejemplo%20de%20Login.PNG?raw=true)
-[Registro](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/HTML/Imagenes/Ejemplo%20de%20Registro.PNG?raw=true)
+![login](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/HTML/Imagenes/Ejemplo%20de%20Login.PNG?raw=true)
+![Registro](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/HTML/Imagenes/Ejemplo%20de%20Registro.PNG?raw=true)
