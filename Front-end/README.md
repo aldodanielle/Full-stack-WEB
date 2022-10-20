@@ -11,13 +11,17 @@ Existen varias herramientas y plataformas que se pueden utilizar en el desarroll
 
 ![Logos HTML CSS JS](https://www.pngkey.com/png/detail/947-9477750_1499794874html5-js-css3-logo-png-html-5.png)
 
-## HTML
-### Hyper Text Markup Language
+### HTML
+**Hyper Text Markup Language**
 Es un la columna vertebral de cualquier pagina web sin esta parte las pagina no podria exirtir en otras palabras seria el esqueleto. El codigo HTML es el que provee un marco general del sitio web.
 
-## CSS
-#### Cascading Style Sheets
+### CSS
+**Cascading Style Sheets**
 Lenguaje de hojas de estilo en cascada en la que controla la aparencia visual del sitio web y permite darle un aspecto único. Estas hojas proveen reglas de estilo y se lanzan basandose en el tipo entrada como el tamaño y la resolucion de la pantalla del dispositivo.
 
-## JavaScript
+### JavaScript
 Este lenguaje de programacion imperativo basadao en eventos nos puede ecoger contenido activamente de la pagina web y reacciona a los eventos del lado del servidor, dicho de otra forma es el cerebro de nuestra plataforma la cual controla toda nustra aplicacion web.
+
+## Desarrollo de la habilidades Full Stack
+- [Análisis de Requerimientos ](https://github.com/aldodanielle/Full-stack-WEB/tree/main/Front-end/An%C3%A1lisis%20de%20Requerimientos)
+- [HTML](https://github.com/aldodanielle/Full-stack-WEB/tree/main/Front-end/HTML)
