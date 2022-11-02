@@ -25,8 +25,8 @@ Este lenguaje de programacion imperativo basadao en eventos nos puede ecoger con
 ## Desarrollo de la habilidades Full Stack
 Contamos primero con todos los requisitos para realizar el software 
 - [Análisis de Requerimientos ](https://github.com/aldodanielle/Full-stack-WEB/tree/main/Front-end/An%C3%A1lisis%20de%20Requerimientos)
-       - [Buyer persona 1](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/An%C3%A1lisis%20de%20Requerimientos/Imagenes/1.png)
-       - [Buyer persona 2](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/An%C3%A1lisis%20de%20Requerimientos/Imagenes/2.png)
+  - [Buyer persona 1](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/An%C3%A1lisis%20de%20Requerimientos/Imagenes/1.png)
+  - [Buyer persona 2](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/An%C3%A1lisis%20de%20Requerimientos/Imagenes/2.png)
 - [Publico Objetivo](https://github.com/aldodanielle/Full-stack-WEB/blob/main/Front-end/An%C3%A1lisis%20de%20Requerimientos/Imagenes/Publico%20Objetivo.jpg)
 
 Lenguajes para el desarrollo FontEnd
