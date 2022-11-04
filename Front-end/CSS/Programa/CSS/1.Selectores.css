@@ -1,0 +1,35 @@
+/*Para el tipo de letra*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Para el color de fondo*/
+body{
+    background-color: burlywood;
+}
+/*Color de parrafo y centrar*/
+p{
+    color: red;
+    text-align: center; 
+}
+/*Color de titulo y derecha*/
+#titulo{
+    color: rgb(200, 150, 220);
+    text-align: right; /*para colocar en una posicion el texto*/
+}
+/*colocamos en parrafo a la izquierda*/
+.izquierda{
+    text-align: left;
+}
+/*sub rayamos el texto y lo colocamos a la izquierda*/
+p.izquierda{
+    text-decoration: underline;
+    text-align: left;
+}
+/*colocamos todo una linea de texto de color negor*/
+.contraste{
+    background-color: black;
+}
+/*Colocamos todo lo que esta en h1, h2 y p en negritas*/
+h1, h2, p{
+    font-weight: bold;
+}

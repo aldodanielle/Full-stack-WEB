@@ -1,0 +1,28 @@
+/*Tipo de tipografia*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Cambia el tamaño de todos los parrafos*/
+p{
+    font-size: 20px;
+}
+/*Colocacion de color con letra*/
+.colorRojo{
+    color: red;
+}
+/*Colocacion de color con RGB*/
+.colorRGB{
+    color: rgb(200, 150, 220);
+}
+/*Colocacion de color con RGBA*/
+.colorRGBA{
+    color: rgba(200, 150, 220, 0.5);
+}
+/*Colocacion de color con HEX*/
+.colorHEX{
+    color: #EE43E3;
+}
+/*Colocacion de color con HSL*/
+.colorHSL{
+    color: hsl(30, 68%, 31%);
+}

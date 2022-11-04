@@ -1,0 +1,53 @@
+/*Tipografia*/
+*{
+    font-family : Arial, Helvetica, sans-serif;
+}
+/*Tamaño de la seccion*/
+section{
+    height: 400px; ;
+}
+/*Tamaño de la divicion*/
+div{
+    height: 400px;
+}
+/*fondo de color*/
+.fondoColor{
+    background-color: burlywood;
+}
+/*fondo opacidad*/
+.fondoOpacidad{
+    background-color: #5d0;
+    opacity: 0.6;
+}
+/*fondo imagen*/
+.fondoImagen{
+    background-image: url(../img/imagen2.jpg);
+}
+/*fondo repetido X*/
+.fondoRepetidoX{
+    background-image: url(../img/imagen1.jpg);
+    background-repeat: repeat-x;
+}
+/*fondo repetido Y*/
+.fondoRepetidoY{
+    background-image: url(../img/imagen2.jpg);
+    background-repeat: repeat-y;
+}
+/*fondo no repetido*/
+.fondoNoRepetido{
+    background-image: url(../img/imagen1.jpg);
+    background-repeat: no-repeat;
+}
+/**/
+.fondoPosicion{
+    background-image: url(../img/imagen2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/**/
+.fondoCompleto{
+    background-image: url(../img/imagen1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

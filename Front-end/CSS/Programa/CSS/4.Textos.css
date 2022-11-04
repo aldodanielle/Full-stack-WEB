@@ -1,0 +1,57 @@
+/*tipografia*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*parrafo a la izquierda*/
+.izquierda{
+    text-align: left;
+}
+/*parrafo a la derecha*/
+.derecha{
+    text-align: right;
+}
+/*parrafo centrado*/
+.centrado{
+    text-align: center;
+}
+/*parrafo justificado*/
+.justificado{
+    text-align: justify;
+}
+/*Parrafo escrito al reves*/
+.alReves{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/*subrayado por arriba*/
+.decoradoOverLine{
+    text-decoration-line: overline;
+}
+/*subrayado*/
+.decoradoLineThrough{
+    text-decoration-line: line-through;
+}
+/*subrayado abajo*/
+.decoradoUnderLine{
+    text-decoration-line: underline;
+}
+/**/
+.decoradoCombinado{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+}
+/*negritas*/
+.negritas{
+    font-weight: 700;
+}
+/*leltras ligeras*/
+.ligeras{
+    font-weight: 100;
+}
+/*link*/
+.link{
+    color: orange;
+    text-decoration: none;
+}
